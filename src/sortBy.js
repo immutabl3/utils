@@ -1,4 +1,4 @@
-import isFunction from './isFunction';
+import isFunction from './isFunction.js';
 
 const sortByFn = fn => (left, right) => {
   const a = fn(left);

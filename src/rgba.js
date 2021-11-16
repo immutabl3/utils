@@ -1,7 +1,8 @@
 // https://stackoverflow.com/questions/5623838/rgb-to-hex-and-hex-to-rgb
 
+const rHex = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i;
+
 const hexToRgb = hex => {
-  const rHex = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i;
   const result = rHex.exec(hex);
   return [
     parseInt(result[1], 16),

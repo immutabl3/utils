@@ -1,3 +1,3 @@
 export default function isObject(obj) {
-  return obj && obj instanceof Object;
+  return !!(obj && obj instanceof Object);
 };

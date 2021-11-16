@@ -1,3 +1,3 @@
 export default function isFunction(val) {
-  return typeof val === 'function';
+  return !!(val && typeof val === 'function');
 };

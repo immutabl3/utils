@@ -13,14 +13,14 @@ export default function throttle(fn, wait = 0, {
   let previous = -1;
 
   const later = function() {
-    previous = leading === false ? 0 : Date.now();
+    previous = leading === false ? 0 : performance.now();
     timeout = null;
     result = fn(arg);
     if (timeout === -1) arg = null;
   };
 
   return function throttled(props) {
-    const now = Date.now();
+    const now = performance.now();
 
     if (!previous && leading === false) previous = now;
 

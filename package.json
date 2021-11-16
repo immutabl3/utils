@@ -6,7 +6,7 @@
   "sideEffects": false,
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "tape **/*.test.js | tap-spec"
   },
   "repository": {
     "type": "git",
@@ -22,5 +22,9 @@
     "name": "Joseph Clay",
     "email": "joe@weareimmutable.com"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "tap-spec": "^5.0.0",
+    "tape": "^5.3.2"
+  }
 }

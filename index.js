@@ -32,7 +32,6 @@ export { default as keyBy } from './src/keyBy';
 export { default as last } from './src/last';
 export { default as lerp } from './src/lerp';
 export { default as map } from './src/map';
-export { default as mapDeep } from './src/mapDeep';
 export { default as memoize } from './src/memoize';
 export { default as mix } from './src/mix';
 export { default as multiply } from './src/multiply';

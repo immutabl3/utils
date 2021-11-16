@@ -1,4 +1,4 @@
-import isFunction from './isFunction';
+import isFunction from './isFunction.js';
 
 const mapArrayKey = (arr, key) => arr.map(obj => obj[key]);
 

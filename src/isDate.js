@@ -1,3 +1,3 @@
 export default function isDate(value) {
-  return value instanceof Date && !Number.isNaN(value);
+  return !!(value && value instanceof Date && !Number.isNaN(value));
 };

@@ -1,17 +1,15 @@
-import noop from './noop';
+import defer from './defer.js';
 
-class Deferred {
-  constructor() {
-    this.resolve = noop;
-    this.reject = noop;
-
-    this.promise = new Promise((resolve, reject) => {
-      this.resolve = resolve;
-      this.reject = reject;
+export default async function deferred() {
+  return new Promise(res => {
+    const promise = new Promise((resolve, reject) => {
+      defer(() => {
+        res({
+          resolve,
+          reject,
+          promise,
+        });
+      });
     });
-  }
-};
-
-export default function DeferredFactory() {
-  return new Deferred();
+  });
 };
