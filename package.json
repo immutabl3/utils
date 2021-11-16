@@ -1,0 +1,26 @@
+{
+  "name": "@immutabl3/utils",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "sideEffects": false,
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/immutabl3/utils"
+  },
+  "keywords": [
+    "javascript",
+    "utility",
+    "lodash",
+    "underscore"
+  ],
+  "author": {
+    "name": "Joseph Clay",
+    "email": "joe@weareimmutable.com"
+  },
+  "license": "MIT"
+}
