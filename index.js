@@ -22,6 +22,7 @@ export { default as isEmpty } from './src/isEmpty.js';
 export { default as isError } from './src/isError.js';
 export { default as isEven } from './src/isEven.js';
 export { default as isFunction } from './src/isFunction.js';
+export { default as isPrimitive } from './src/isPrimitive.js';
 export { default as isInt } from './src/isInt.js';
 export { default as isNumber } from './src/isNumber.js';
 export { default as isObject } from './src/isObject.js';
