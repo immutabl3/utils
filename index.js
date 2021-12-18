@@ -29,6 +29,7 @@ export { default as isObject } from './src/isObject.js';
 export { default as isOdd } from './src/isOdd.js';
 export { default as isRegExp } from './src/isRegExp.js';
 export { default as isString } from './src/isString.js';
+export { default as isSymbol } from './src/isSymbol.js';
 export { default as keyBy } from './src/keyBy.js';
 export { default as last } from './src/last.js';
 export { default as lerp } from './src/lerp.js';
