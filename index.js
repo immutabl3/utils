@@ -40,6 +40,7 @@ export { default as multiply } from './src/multiply.js';
 export { default as noop } from './src/noop.js';
 export { default as omit } from './src/omit.js';
 export { default as once } from './src/once.js';
+export { default as pick } from './src/pick.js';
 export { default as radiansToDegrees } from './src/radiansToDegrees.js';
 export { default as random } from './src/random.js';
 export { default as range } from './src/range.js';
