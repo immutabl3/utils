@@ -1,5 +1,5 @@
 export default function mix(...sources) {
-  const [base,...rest] = sources;
+  const [base, ...rest] = sources;
   
   for (const source of rest) {
     for (const prop of Object.keys(source)) {
