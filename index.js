@@ -44,6 +44,7 @@ export { default as pick } from './src/pick.js';
 export { default as radiansToDegrees } from './src/radiansToDegrees.js';
 export { default as random } from './src/random.js';
 export { default as range } from './src/range.js';
+export { default as remember } from './src/remember.js';
 export { default as remove } from './src/remove.js';
 export { default as repeat } from './src/repeat.js';
 export { default as rgba } from './src/rgba.js';
