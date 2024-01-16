@@ -1,19 +1,22 @@
 {
   "name": "@immutabl3/utils",
-  "version": "1.1.4",
+  "version": "2.0.0",
   "description": "",
   "main": "index.js",
   "sideEffects": false,
   "type": "module",
   "scripts": {
-    "test": "tape **/*.test.js | tap-spec"
+    "test": "bun test"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/immutabl3/utils"
   },
   "keywords": [
+    "typescript",
+    "ts",
     "javascript",
+    "js",
     "utility",
     "lodash",
     "underscore"
@@ -24,7 +27,6 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "tap-spec": "^5.0.0",
-    "tape": "^5.3.2"
+    "@types/bun": "^1.0.0"
   }
 }
